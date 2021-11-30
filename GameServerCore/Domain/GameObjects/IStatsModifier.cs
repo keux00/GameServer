@@ -9,7 +9,6 @@
         IStatModifier CriticalChance { get; }
         IStatModifier CriticalDamage { get; }
         IStatModifier Armor { get; }
-        IStatModifier CooldownReduction { get; }
         IStatModifier MagicResist { get; }
         IStatModifier AttackSpeed { get; }
         IStatModifier ArmorPenetration { get; }
