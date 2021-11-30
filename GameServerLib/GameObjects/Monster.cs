@@ -89,7 +89,7 @@ namespace LeagueSandbox.GameServer.GameObjects.AttackableUnits.AI
         {
             if (resetting) return;
             AlertCamp(damageData.Attacker);
-            SetTargetUnit(damageData.Attacker);
+            SetTargetUnit(damageData.Attacker, true);
         }
 
         public void AlertCamp(IAttackableUnit source)
