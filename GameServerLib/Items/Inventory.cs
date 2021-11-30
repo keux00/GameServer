@@ -125,11 +125,6 @@ namespace LeagueSandbox.GameServer.Items
 
             if (finalStacks <= 0 || !HasItemWithID(itemID))
             {
-                if (Items[slot] != null && owner != null)
-                {
-                    owner.Stats.RemoveModifier(Items[slot].ItemData);
-                }
-
                 if (ItemScripts.ContainsKey(itemID))
                 {
                     if (owner != null)
