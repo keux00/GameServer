@@ -11,6 +11,7 @@ namespace LeagueSandbox.GameServer.GameObjects.Stats
         public IStatModifier AbilityPower { get; } = new StatModifier();
         public IStatModifier CriticalChance { get; } = new StatModifier();
         public IStatModifier CriticalDamage { get; } = new StatModifier();
+        public IStatModifier CooldownReduction { get; } = new StatModifier();
         public IStatModifier Armor { get; } = new StatModifier();
         public IStatModifier MagicResist { get; } = new StatModifier();
         public IStatModifier AttackSpeed { get; } = new StatModifier();
